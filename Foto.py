@@ -4,4 +4,4 @@ from ultralytics import YOLO
 model = YOLO("son_model.pt")
 
 # imgsz=960 -> kucuk nesneler (baret/yelek/palet) icin daha iyi tespit
-results = model.predict("test3.jpg", imgsz=960, conf=0.25, save=True, show=True)
+results = model.predict("test2.jpeg", imgsz=960, conf=0.25, save=True, show=True)

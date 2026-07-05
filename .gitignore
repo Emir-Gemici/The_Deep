@@ -1,0 +1,50 @@
+# ── Python ──
+__pycache__/
+*.pyc
+.venv/
+venv/
+.__*.py
+
+# ── IDE ──
+.idea/
+.vscode/
+
+# ── Egitim ciktilari / veri klasorleri (repo'ya girmez; veri linkleri README'de) ──
+runs/
+birlesik/
+baret/
+kareler/
+kazalar/
+*yolo26/
+_yedek_*/
+vision_teslim/
+lokal_qwen_8bit/
+weights/
+
+# ── Arsiv / cache / ara ciktilar ──
+*.zip
+*.tar.gz
+*.npy
+*.cache
+_history_*.json
+auto_insan_proposed.json
+eklenen_*.txt
+README.dataset.txt
+README.roboflow.txt
+
+# ── Medya (demo videosu haric) ──
+*.mp4
+!demo_Test.mp4
+*.jpg
+*.jpeg
+*.png
+*.avi
+*.mov
+
+# ── Modeller (nihai teslim modeli haric) ──
+*.pt
+!son_model.pt
+
+# ── Ofis dokumanlari (sartname/sablon kopyalari) ──
+*.docx
+*.pdf

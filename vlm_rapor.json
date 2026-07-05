@@ -1,0 +1,484 @@
+{
+  "video": "Test.mp4",
+  "kare_analizleri": [
+    {
+      "timestamp": "00:00",
+      "olay_turu": "İşçi güvenliği uygulaması",
+      "olay_yorumu": "Görüntüde üç işçi forkliftin yanına duruyor, forklift hareketsiz. Yaralanma veya tehlike belirtisi gözlenmedi.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:01",
+      "olay_turu": "İş kazası",
+      "olay_yorumu": "Görüntüde bir iş kazası meydana geldi. Forkliftin yan tarafında çalışan bir işçi, yükün düşmesiyle birlikte yere çarptı.",
+      "risk_skoru": 9,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı işçi yardım almasını sağlayın",
+        "Forklifti durdurun ve güvenli bir şekilde kapatın",
+        "Görüşümüze göre kazayı araştırın ve rapor oluşturun",
+        "Güvenlik önlemlerini gözden geçirin ve gerekirse güncelleyin"
+      ]
+    },
+    {
+      "timestamp": "00:09",
+      "olay_turu": "İşçi forklift kullanıyor",
+      "olay_yorumu": "Görüntüde bir işçi forklift içinde oturmuş ve hareket etmiyor. Diğer işçiler de göze çarpıcı değil.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:11",
+      "olay_turu": "İşçi forklift kullanıyor",
+      "olay_yorumu": "Görüntüde bir işçi forklift içinde oturmuş ve hareket ediyor. Diğer bir işçi forkliftin yanına yakın duruyor.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:23",
+      "olay_turu": "İşçi güvenliği uygulaması",
+      "olay_yorumu": "Görüntüde iki işçi forklift üzerinde ve arka tarafında duruyor. Her iki işçi de güvenlik elbiseleri giymiş ve baret takmış. Yaralanma veya tehlike belirtisi gözlenmedi.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:25",
+      "olay_turu": "İşçi ve forklift kullanımı",
+      "olay_yorumu": "Görüntüde iki işçi forklift üzerinde ve arka tarafında oturmuş durumda. Her iki işçi de盔etli ve kask takmış gibi görünüyor.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:31",
+      "olay_turu": "İşçi forklift üzerinde",
+      "olay_yorumu": "Görüntüde iki işçi forklift üzerinde duruyor. Bir işçi forkliftin arkasında oturmuş durumda, diğer işçi forkliftin önündedir. Yaralanma veya tehlike belirtisi gözlenmedi.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:33",
+      "olay_turu": "İşçi forklift üzerinde düşüyor",
+      "olay_yorumu": "Görüntüde bir işçi forklift üzerinde düşüyor ve diğer işçi onu destekliyor. Diğer işçi güvenli bir şekilde duruyor.",
+      "risk_skoru": 7,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı kişiyi güvenli bir yerde seredin",
+        "Ambulans çağırın",
+        "Yaralı kişinin yardımına koşun",
+        "Diğer işçiyi forkliftten alıp güvenli bir yerde bırakın"
+      ]
+    },
+    {
+      "timestamp": "00:39",
+      "olay_turu": "İşçi ve forklift kullanımı",
+      "olay_yorumu": "Görüntüde bir forklift kullanıcısı ve yük taşıyor. Diğer bir işçi forkliftin önündedir. Her iki kişi de güvenli bir şekilde iş yapıyorlar ve koruyucu ekipman takıyorlar.",
+      "risk_skoru": 1,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:40",
+      "olay_turu": "İşçi ve forklift kullanımı",
+      "olay_yorumu": "Görüntüde iki işçi forklift üzerinde ve arka tarafında oturmuş durumda. Forklift hareketsiz ve yük taşımaktadır. Yaralanma veya tehlike belirtisi gözlenmedi.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:41",
+      "olay_turu": "İşçi ve forklift kullanımı",
+      "olay_yorumu": "Görüntüde iki işçi forklift üzerinde oturmuş ve yük taşımaktadır. Diğer bir işçi forkliftin yanına yaklaşıyor. Yaralanma veya tehlike belirtisi gözlenmedi.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:43",
+      "olay_turu": "İşçi ve forklift kullanımı",
+      "olay_yorumu": "Görüntüde iki işçi forklift üzerinde ve yanlarında duruyor. Bir işçi forkliftin üzerinde oturmuş, diğer işçi forkliftin yanına doğru ilerliyor. Her iki işçi de güvenlik elbiseleri takıyor.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "İşçilerin forklift üzerinde güvenli bir şekilde durduğunu kontrol edin",
+        "İşçilerin forkliftin yanına doğru ilerlediğini izleyin",
+        "Güvenlik elbiselerinin doğru şekilde takıldığını doğrulayın"
+      ]
+    },
+    {
+      "timestamp": "00:44",
+      "olay_turu": "İşçi güvenliği ihlali",
+      "olay_yorumu": "Görüntüde bir işçinin forklift üzerinde oturmuş, diğer işçiler ise forkliftin yakınında duruyor. Forkliftin yükü yüklenirken düşme tehlikesi var.",
+      "risk_skoru": 6,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Forklift kontrol edilmesini sağlayın",
+        "İşçilerin güvenliğini kontrol edin",
+        "Yüklenen yükün güvenli bir şekilde yerleştirildiğini doğrulayın",
+        "Güvenlik kurallarının uygulanıp uygulanmadığını kontrol edin"
+      ]
+    },
+    {
+      "timestamp": "00:45",
+      "olay_turu": "Forklift操作",
+      "olay_yorumu": "Görüntüde bir işçi forklift üzerinde oturmuş ve başka bir işçi forkliftin yanına doğru ilerliyor. Forklift hareket halinde ve yaralanma veya tehlike belirtisi gözlenmedi.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:51",
+      "olay_turu": "Forklift kazası",
+      "olay_yorumu": "Görüntüde bir insan forkliftin altında kalmış ve yere düşmüş. Diğer insan forklift üzerinde oturmuş ve kontrol ediyor gibi görünüyor.",
+      "risk_skoru": 9,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı kişiyi hemen ambulansla kaldırın",
+        "Forklifti durdurun ve kontrol edin",
+        "Diğer çalışanları güvenli bir yerden uzaklaştırın",
+        "Yaralı kişinin yardımına koşun"
+      ]
+    },
+    {
+      "timestamp": "00:52",
+      "olay_turu": "Kaza",
+      "olay_yorumu": "Görüntüde bir işçi forkliftin altında kalmış ve diğer iki işçi forkliftin üzerinde duruyor. Yaralanma veya tehlike belirtisi gözleniyor.",
+      "risk_skoru": 9,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı kişiyi güvenli bir yerde bırakın ve ilk yardım yapın.",
+        "Forklifti durdurun ve kontrol altına alın.",
+        "Diğer işçileri güvenli bir yerden uzaklaştırın.",
+        "Ambulans çağırın."
+      ]
+    },
+    {
+      "timestamp": "00:52",
+      "olay_turu": "Çalışma sırasında kazaya benzer olay",
+      "olay_yorumu": "Görüntüde iki işçi forklift üzerinde yer alıyor. Bir işçi forkliftin üzerinde oturmuş, diğer işçi forkliftin arkasında duruyor. Forklift hareketsiz durumda ve yaralanma veya tehlike belirtisi gözlenmedi.",
+      "risk_skoru": 2,
+      "acil_mudahale": false,
+      "aksiyon_plani": [
+        "Standart izlemeye devam edin"
+      ]
+    },
+    {
+      "timestamp": "00:53",
+      "olay_turu": "Forklift kazası",
+      "olay_yorumu": "Görüntüde bir forklift kullanıcısı, forkliftin üzerindeki yükün düşmesiyle bir işçi yere düşmüştür. Diğer işçi forkliftin yanına doğru ilerliyor.",
+      "risk_skoru": 7,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı kişiyi güvenli bir yerde serbest bırakın",
+        "Ambulans çağırın",
+        "Yaralı kişinin ilk yardımını yapın",
+        "Forklifti kapatın ve kontrol edin"
+      ]
+    },
+    {
+      "timestamp": "00:56",
+      "olay_turu": "Kaza",
+      "olay_yorumu": "Görüntüde bir işçi forklift tarafından yere düşmüş ve diğer iki işçi onun yardımına koşuyor. Yaralanma veya tehlike belirtisi gözleniyor.",
+      "risk_skoru": 9,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı kişiyi güvenli bir yerde yatırın",
+        "Ambulans çağırın",
+        "Yaralı kişinin yardımına koşun",
+        "Forklift操作ını durdurun"
+      ]
+    },
+    {
+      "timestamp": "00:57",
+      "olay_turu": "Çalışma sırasında kaza tehlikesi",
+      "olay_yorumu": "Görüntüde bir işçinin forkliftin altında kalması ve diğer işçilerin yardımına koşması gözleniyor. Forklift hareket halinde ve işçilerin güvenli olmayan bir konumda.",
+      "risk_skoru": 7,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı kişinin ilk yardımını yapın",
+        "Forklifti durdurun ve güvenli bir şekilde kaldırın",
+        "İşçilerin güvenliği için çevreyi kontrol edin",
+        "Acil sağlık servisini çağırın"
+      ]
+    },
+    {
+      "timestamp": "01:00",
+      "olay_turu": "İş kazası",
+      "olay_yorumu": "Görüntüde bir işçinin forklift tarafından ezildiği açıkça görülmektedir.",
+      "risk_skoru": 10,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı kişiyi hemen ambulansla kaldırın.",
+        "Forklift kontrolünü kesin ve güvenli bir şekilde bırakın.",
+        "Diğer işçileri forkliftten uzaklaştırın.",
+        "Yaralı kişinin yardımına girmeyin, ancak çevresini koruyun."
+      ]
+    },
+    {
+      "timestamp": "01:01",
+      "olay_turu": "İşçi zarar görmüş",
+      "olay_yorumu": "Görüntüde bir işçi forkliftin altında kalmış ve diğer iki işçi yardım için forklifti durduruyor. Yaralanma veya tehlike belirtisi gözleniyor.",
+      "risk_skoru": 9,
+      "acil_mudahale": true,
+      "aksiyon_plani": [
+        "Yaralı kişiyi güvenli bir yerde bırakın",
+        "Ambulans çağırın",
+        "Yaralı kişinin yardımına koşun",
+        "Forklifti kapatın"
+      ]
+    }
+  ],
+  "rapor": {
+    "video_ozeti": "Videoda 22 sahne analiz edildi. En riskli olay: 'İş kazası' (01:00).",
+    "genel_risk": "Yüksek",
+    "kritik_olay_sayisi": 9,
+    "tespit_edilen_olaylar": [
+      {
+        "zaman": "00:00",
+        "olay": "İşçi güvenliği uygulaması",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:01",
+        "olay": "İş kazası",
+        "risk_skoru": 9
+      },
+      {
+        "zaman": "00:09",
+        "olay": "İşçi forklift kullanıyor",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:11",
+        "olay": "İşçi forklift kullanıyor",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:23",
+        "olay": "İşçi güvenliği uygulaması",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:25",
+        "olay": "İşçi ve forklift kullanımı",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:31",
+        "olay": "İşçi forklift üzerinde",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:33",
+        "olay": "İşçi forklift üzerinde düşüyor",
+        "risk_skoru": 7
+      },
+      {
+        "zaman": "00:39",
+        "olay": "İşçi ve forklift kullanımı",
+        "risk_skoru": 1
+      },
+      {
+        "zaman": "00:40",
+        "olay": "İşçi ve forklift kullanımı",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:41",
+        "olay": "İşçi ve forklift kullanımı",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:43",
+        "olay": "İşçi ve forklift kullanımı",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:44",
+        "olay": "İşçi güvenliği ihlali",
+        "risk_skoru": 6
+      },
+      {
+        "zaman": "00:45",
+        "olay": "Forklift操作",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:51",
+        "olay": "Forklift kazası",
+        "risk_skoru": 9
+      },
+      {
+        "zaman": "00:52",
+        "olay": "Kaza",
+        "risk_skoru": 9
+      },
+      {
+        "zaman": "00:52",
+        "olay": "Çalışma sırasında kazaya benzer olay",
+        "risk_skoru": 2
+      },
+      {
+        "zaman": "00:53",
+        "olay": "Forklift kazası",
+        "risk_skoru": 7
+      },
+      {
+        "zaman": "00:56",
+        "olay": "Kaza",
+        "risk_skoru": 9
+      },
+      {
+        "zaman": "00:57",
+        "olay": "Çalışma sırasında kaza tehlikesi",
+        "risk_skoru": 7
+      },
+      {
+        "zaman": "01:00",
+        "olay": "İş kazası",
+        "risk_skoru": 10
+      },
+      {
+        "zaman": "01:01",
+        "olay": "İşçi zarar görmüş",
+        "risk_skoru": 9
+      }
+    ],
+    "genel_aksiyon_plani": [
+      "Yaralı kişiyi hemen ambulansla kaldırın.",
+      "Forklift kontrolünü kesin ve güvenli bir şekilde bırakın.",
+      "Diğer işçileri forkliftten uzaklaştırın.",
+      "Yaralı kişinin yardımına girmeyin, ancak çevresini koruyun.",
+      "Yaralı işçi yardım almasını sağlayın",
+      "Forklifti durdurun ve güvenli bir şekilde kapatın"
+    ]
+  },
+  "sartname_json": {
+    "summary": "Videoda 22 sahne analiz edildi. En riskli olay: 'İş kazası' (01:00).",
+    "events": [
+      {
+        "time": "00:00",
+        "event": "İşçi güvenliği uygulaması"
+      },
+      {
+        "time": "00:01",
+        "event": "İş kazası"
+      },
+      {
+        "time": "00:09",
+        "event": "İşçi forklift kullanıyor"
+      },
+      {
+        "time": "00:11",
+        "event": "İşçi forklift kullanıyor"
+      },
+      {
+        "time": "00:23",
+        "event": "İşçi güvenliği uygulaması"
+      },
+      {
+        "time": "00:25",
+        "event": "İşçi ve forklift kullanımı"
+      },
+      {
+        "time": "00:31",
+        "event": "İşçi forklift üzerinde"
+      },
+      {
+        "time": "00:33",
+        "event": "İşçi forklift üzerinde düşüyor"
+      },
+      {
+        "time": "00:39",
+        "event": "İşçi ve forklift kullanımı"
+      },
+      {
+        "time": "00:40",
+        "event": "İşçi ve forklift kullanımı"
+      },
+      {
+        "time": "00:41",
+        "event": "İşçi ve forklift kullanımı"
+      },
+      {
+        "time": "00:43",
+        "event": "İşçi ve forklift kullanımı"
+      },
+      {
+        "time": "00:44",
+        "event": "İşçi güvenliği ihlali"
+      },
+      {
+        "time": "00:45",
+        "event": "Forklift操作"
+      },
+      {
+        "time": "00:51",
+        "event": "Forklift kazası"
+      },
+      {
+        "time": "00:52",
+        "event": "Kaza"
+      },
+      {
+        "time": "00:52",
+        "event": "Çalışma sırasında kazaya benzer olay"
+      },
+      {
+        "time": "00:53",
+        "event": "Forklift kazası"
+      },
+      {
+        "time": "00:56",
+        "event": "Kaza"
+      },
+      {
+        "time": "00:57",
+        "event": "Çalışma sırasında kaza tehlikesi"
+      },
+      {
+        "time": "01:00",
+        "event": "İş kazası"
+      },
+      {
+        "time": "01:01",
+        "event": "İşçi zarar görmüş"
+      }
+    ],
+    "risk": "Yüksek",
+    "actions": [
+      "Yaralı kişiyi hemen ambulansla kaldırın.",
+      "Forklift kontrolünü kesin ve güvenli bir şekilde bırakın.",
+      "Diğer işçileri forkliftten uzaklaştırın.",
+      "Yaralı kişinin yardımına girmeyin, ancak çevresini koruyun.",
+      "Yaralı işçi yardım almasını sağlayın",
+      "Forklifti durdurun ve güvenli bir şekilde kapatın"
+    ]
+  }
+}
