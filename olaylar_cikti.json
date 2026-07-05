@@ -1,0 +1,107 @@
+{
+  "video": "Test.mp4",
+  "track_sayisi": 108,
+  "olay_adaylari": [
+    {
+      "saniye": 0.0,
+      "tip": "toplanma_adayi",
+      "objeler": [
+        "insan#1",
+        "insan#2",
+        "insan#3"
+      ],
+      "detay": "3 kisi yakin",
+      "t": "00:00"
+    },
+    {
+      "saniye": 9.5,
+      "tip": "hareketsizlik_adayi",
+      "obje": "insan#22",
+      "detay": "~2.5sn hareketsiz",
+      "t": "00:09"
+    },
+    {
+      "saniye": 23.5,
+      "tip": "hareketsizlik_adayi",
+      "obje": "insan#51",
+      "detay": "~2.5sn hareketsiz",
+      "t": "00:23"
+    },
+    {
+      "saniye": 31.8,
+      "tip": "hareketsizlik_adayi",
+      "obje": "insan#76",
+      "detay": "~2.5sn hareketsiz",
+      "t": "00:31"
+    },
+    {
+      "saniye": 39.0,
+      "tip": "toplanma_adayi",
+      "objeler": [
+        "insan#51",
+        "insan#76",
+        "insan#84"
+      ],
+      "detay": "3 kisi yakin",
+      "t": "00:39"
+    },
+    {
+      "saniye": 41.7,
+      "tip": "hareketsizlik_adayi",
+      "obje": "insan#94",
+      "detay": "~2.5sn hareketsiz",
+      "t": "00:41"
+    },
+    {
+      "saniye": 44.0,
+      "tip": "toplanma_adayi",
+      "objeler": [
+        "insan#51",
+        "insan#84",
+        "insan#94"
+      ],
+      "detay": "3 kisi yakin",
+      "t": "00:44"
+    },
+    {
+      "saniye": 51.1,
+      "tip": "hareketsizlik_adayi",
+      "obje": "insan#84",
+      "detay": "~2.5sn hareketsiz",
+      "t": "00:51"
+    },
+    {
+      "saniye": 52.0,
+      "tip": "toplanma_adayi",
+      "objeler": [
+        "insan#84",
+        "insan#134",
+        "insan#138"
+      ],
+      "detay": "3 kisi yakin",
+      "t": "00:52"
+    },
+    {
+      "saniye": 56.0,
+      "tip": "toplanma_adayi",
+      "objeler": [
+        "insan#84",
+        "insan#134",
+        "insan#157"
+      ],
+      "detay": "3 kisi yakin",
+      "t": "00:56"
+    },
+    {
+      "saniye": 60.0,
+      "tip": "toplanma_adayi",
+      "objeler": [
+        "insan#84",
+        "insan#134",
+        "insan#157"
+      ],
+      "detay": "3 kisi yakin",
+      "t": "01:00"
+    }
+  ]
+}

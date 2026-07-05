@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['forklift', 'insan', 'palet', 'baret', 'yelek']
+
+roboflow:
+  workspace: mohamed-traore-2ekkp
+  project: forklift-dsitv
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mohamed-traore-2ekkp/forklift-dsitv/dataset/5
