@@ -365,8 +365,8 @@ Dürüst kısıt dokümantasyonu bu projenin ilkesidir; aşağıdakiler bilinçl
 
 ### Yol haritası
 
-1. **`devrilmis_forklift` veri seti (devam ediyor):** Ekip, gerçek CCTV kaza görüntülerinden `kare_cikar.py` ile kare çıkarıp manuel etiketleme yürütüyor — domain-spesifik bir veri toplama çalışması.
-2. **nc:4 retrain (planlı):** Veri seti şartname kapsamına göre sadeleştirildi — palet ve yelek sınıfları kapsam dışı bırakıldı, baret verisi Hard Hat Workers ile 4,7× güçlendirildi (nc:3 — forklift/insan/baret). `devrilmis_forklift` verisi hazır olduğunda **nc:4** ile yeniden eğitim planlıdır.
+1. **`devrilmis_forklift` veri seti (gelecek iş):** Devrilmiş forklift için herkese açık hazır veri seti bulunamadı; yeterli gerçek kaza görüntüsüne erişim sağlandığında `kare_cikar.py` ile kare çıkarıp manuel etiketleme planlanmaktadır. Bu sürümde devrilme tanıma, kareleri gerçekten gören **multimodal VLM'in görsel yorumuna** devredilmiştir (bkz. [Zorluklar](#karşılaşılan-zorluklar-ve-çözümler)) — sistem devrilme senaryosunu bu yolla ele alır.
+2. **nc:4 retrain (veri sağlandığında):** Veri tarafında hazırlık tamamlandı — set şartname kapsamına göre sadeleştirildi (palet ve yelek kapsam dışı), baret verisi Hard Hat Workers ile 4,7× güçlendirildi (nc:3 — forklift/insan/baret). `devrilmis_forklift` verisi sağlanabildiğinde **nc:4** ile yeniden eğitim yapılacaktır.
 3. **vLLM sunucu servisleme:** Process içi transformers yüklemesinden vLLM sunucusuna geçiş (çoklu istemci, sürekli batching).
 4. **Çoklu kamera orkestrasyonu:** Kamera başına vision süreci + merkezi VLM kuyruk mimarisi.
 
@@ -379,11 +379,9 @@ Takım adı: **The Deep** (4 kişi)
 | Rol | Üye |
 |---|---|
 | Vision/Detection (tespit + takip + olay-türetme) + VLM entegrasyonu | Emir Gemici |
-| VLM / Reasoning | Bera *(soyadı güncellenecek)* |
-| VLM / Reasoning | Selim *(soyadı güncellenecek)* |
-| Pipeline / Orkestrasyon + Dokümantasyon/Demo | Selin *(soyadı güncellenecek)* |
-
-> ✏️ Soyadları ve kesin görev dağılımını sunum öncesi güncelleyiniz — şartname, tüm üyelerin görev tanımlarının yapılmasını zorunlu kılar.
+| VLM / Reasoning | Ahmet Bera Yürük |
+| VLM / Reasoning | Mehmet Selim Özdemir |
+| Pipeline / Orkestrasyon + Dokümantasyon/Demo | Selin Müge Terzi |
 
 ---
 
