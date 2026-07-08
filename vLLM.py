@@ -284,11 +284,15 @@ def sartname_json(rapor: dict, memory: list) -> dict:
     final_report şeması Türkçe anahtarlı kaldığı için jüri uyumu buradan üretilir.
     """
     olaylar = rapor.get("tespit_edilen_olaylar") or [
-        {"zaman": e.get("timestamp"), "olay": e.get("olay_turu")} for e in memory
+        {"zaman": e.get("timestamp"), "olay": e.get("olay_turu"),
+         "risk_skoru": e.get("risk_skoru", 0)} for e in memory
     ]
+    # Mock format ONEMLI olaylari listeler: rutin kareler ("Depo işçiliği" vb.)
+    # olay sayilmaz -> risk >= 4 filtresi. Tam kare dokumu rapor.tespit_edilen_olaylar'da.
+    onemli = [o for o in olaylar if o.get("risk_skoru", 0) >= 4]
     return {
         "summary": rapor.get("video_ozeti", ""),
-        "events": [{"time": o.get("zaman"), "event": o.get("olay")} for o in olaylar],
+        "events": [{"time": o.get("zaman"), "event": o.get("olay")} for o in onemli],
         "risk": rapor.get("genel_risk", "Düşük"),
         "actions": rapor.get("genel_aksiyon_plani", []),
     }

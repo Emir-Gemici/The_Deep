@@ -153,7 +153,15 @@ if not videolar:
     st.error("Çalışma dizininde .mp4 dosyası bulunamadı. Lütfen bir video ekleyin.")
     st.stop()
 
-varsayilan = videolar.index("Test.mp4") if "Test.mp4" in videolar else 0
+# Varsayilan secim: paneller dolu acilsin diye once VLM raporundaki video,
+# sonra olay dosyasindaki, sonra Test.mp4; hicbiri yoksa listedeki ilk video.
+_vlm_v = (json_oku(VLM_DOSYASI) or {}).get("video")
+_olay_v = (json_oku(OLAY_DOSYASI) or {}).get("video")
+varsayilan = 0
+for _aday in (_vlm_v, _olay_v, "Test.mp4"):
+    if _aday in videolar:
+        varsayilan = videolar.index(_aday)
+        break
 video_yolu = st.sidebar.selectbox("Video", videolar, index=varsayilan)
 
 conf = st.sidebar.slider("Güven eşiği (conf)", 0.05, 0.90, 0.25, 0.05)
@@ -183,6 +191,10 @@ else:
 
 olay_verisi = json_oku(OLAY_DOSYASI)
 vlm_verisi = json_oku(VLM_DOSYASI)
+
+# Rapor SECILI videoya mi ait? (baska videonun analizi yanlislikla gosterilmesin)
+vlm_video = (vlm_verisi or {}).get("video")
+vlm_eslesme = vlm_verisi is not None and vlm_video == os.path.basename(video_yolu)
 
 # ── Yerlesim: sol video, sag paneller ────────────────────────────────────────
 
@@ -217,6 +229,10 @@ def olay_panel(t_sn):
         if olay_verisi is None:
             st.info("`olaylar_cikti.json` bulunamadı — `python olaylar.py <video>` ile üretin.")
             return
+        if olay_verisi.get("video") != os.path.basename(video_yolu):
+            st.info(f"Bu video için olay dosyası yok (mevcut: `{olay_verisi.get('video')}`) — "
+                    f"`python olaylar.py {video_yolu}` ile üretin.")
+            return
         adaylar = olay_verisi.get("olay_adaylari", [])
         if not adaylar:
             st.info("Olay adayı bulunmadı.")
@@ -241,6 +257,10 @@ def vlm_panel(t_sn):
     with vlm_ph.container():
         if vlm_verisi is None:
             st.info("`vlm_rapor.json` bulunamadı — `python vLLM.py <video>` ile üretin.")
+            return
+        if not vlm_eslesme:
+            st.info(f"Bu video için VLM raporu yok (mevcut rapor: `{vlm_video}`) — "
+                    f"`python vLLM.py {video_yolu}` ile üretin.")
             return
         analizler = vlm_verisi.get("kare_analizleri", [])
         gecmis = [a for a in analizler if zaman_sn(a.get("timestamp")) <= t_sn + 0.01]
@@ -288,6 +308,8 @@ st.divider()
 with st.expander("📄 Nihai VLM Raporu", expanded=False):
     if vlm_verisi is None:
         st.info("`vlm_rapor.json` bulunamadı — `python vLLM.py <video>` ile üretin.")
+    elif not vlm_eslesme:
+        st.info(f"Bu video için VLM raporu yok (mevcut rapor: `{vlm_video}`).")
     else:
         rapor = vlm_verisi.get("rapor")
         if not rapor:
@@ -306,6 +328,8 @@ with st.expander("📄 Nihai VLM Raporu", expanded=False):
 with st.expander("📋 Şartname JSON Çıktısı", expanded=False):
     if vlm_verisi is None:
         st.info("`vlm_rapor.json` bulunamadı — `python vLLM.py <video>` ile üretin.")
+    elif not vlm_eslesme:
+        st.info(f"Bu video için VLM raporu yok (mevcut rapor: `{vlm_video}`).")
     else:
         sartname = vlm_verisi.get("sartname_json")
         if not sartname:

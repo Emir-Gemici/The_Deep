@@ -48,3 +48,7 @@ README.roboflow.txt
 # ── Ofis dokumanlari (sartname/sablon kopyalari) ──
 *.docx
 *.pdf
+
+# ── Gizli bilgiler / yerel araclar (ASLA repoya girmez) ──
+youtube_cookies.txt
+yt-dlp.exe

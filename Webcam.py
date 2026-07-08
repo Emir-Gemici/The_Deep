@@ -1,8 +1,8 @@
 import cv2
 from ultralytics import YOLO
 
-# Nihai 5-sinifli model
-model = YOLO("runs/detect/final_yolo26s-5/weights/best.pt")
+# Nihai 5-sinifli model (repo ici teslim kopyasi)
+model = YOLO("son_model.pt")
 
 # Kamerayi baslat (0 = varsayilan kamera)
 cap = cv2.VideoCapture(0)

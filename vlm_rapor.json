@@ -383,60 +383,16 @@
     "summary": "Videoda 22 sahne analiz edildi. En riskli olay: 'İş kazası' (01:00).",
     "events": [
       {
-        "time": "00:00",
-        "event": "İşçi güvenliği uygulaması"
-      },
-      {
         "time": "00:01",
         "event": "İş kazası"
-      },
-      {
-        "time": "00:09",
-        "event": "İşçi forklift kullanıyor"
-      },
-      {
-        "time": "00:11",
-        "event": "İşçi forklift kullanıyor"
-      },
-      {
-        "time": "00:23",
-        "event": "İşçi güvenliği uygulaması"
-      },
-      {
-        "time": "00:25",
-        "event": "İşçi ve forklift kullanımı"
-      },
-      {
-        "time": "00:31",
-        "event": "İşçi forklift üzerinde"
       },
       {
         "time": "00:33",
         "event": "İşçi forklift üzerinde düşüyor"
       },
       {
-        "time": "00:39",
-        "event": "İşçi ve forklift kullanımı"
-      },
-      {
-        "time": "00:40",
-        "event": "İşçi ve forklift kullanımı"
-      },
-      {
-        "time": "00:41",
-        "event": "İşçi ve forklift kullanımı"
-      },
-      {
-        "time": "00:43",
-        "event": "İşçi ve forklift kullanımı"
-      },
-      {
         "time": "00:44",
         "event": "İşçi güvenliği ihlali"
-      },
-      {
-        "time": "00:45",
-        "event": "Forklift操作"
       },
       {
         "time": "00:51",
@@ -445,10 +401,6 @@
       {
         "time": "00:52",
         "event": "Kaza"
-      },
-      {
-        "time": "00:52",
-        "event": "Çalışma sırasında kazaya benzer olay"
       },
       {
         "time": "00:53",
